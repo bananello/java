@@ -1,0 +1,23 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Task3 {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+
+        int N,i;
+        int res=0;
+        int sign = 1;
+
+        System.out.println("Input count of numbers ");
+        N=sc.nextInt();
+
+        for(i=1;i<=N;i++){
+            res =res+sign*i;
+            sign=sign*(-1);
+        }
+        System.out.print( +res);
+
+    }
+}
