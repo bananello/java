@@ -42,8 +42,8 @@ public class Task3 {
                 c++;
             }
         }
-        System.out.println("Count of even " +k);
-        System.out.println("Count of not even " +c);
+        System.out.println("Count of even " +c);
+        System.out.println("Count of not even " +k);
     }
 }
 
